@@ -6,10 +6,12 @@ import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TopbarComponent,
   ],
   imports: [
     BrowserModule,

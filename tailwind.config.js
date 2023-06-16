@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,scss,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Arial', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
