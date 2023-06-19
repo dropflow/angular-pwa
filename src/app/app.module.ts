@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CalendarChartComponent } from './calendar-chart/calendar-chart.component';
+import { TasksListComponent } from './tasks-list/tasks-list.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CalendarChartComponent } from './calendar-chart/calendar-chart.componen
     TopbarComponent,
     CalendarComponent,
     CalendarChartComponent,
+    TasksListComponent,
   ],
   imports: [
     BrowserModule,

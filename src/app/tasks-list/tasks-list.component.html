@@ -1,0 +1,13 @@
+<ul role="list" class="divide-y divide-gray-500">
+    <li class="flex justify-between gap-x-6 p-5 items-center" *ngFor="let task of tasks">
+      <div class="flex gap-x-4">
+        <div class="min-w-0 flex-auto">
+          <p class="text-base font-semibold leading-6 text-white">{{ task.name }}</p>
+          <p class="mt-1 truncate text-xs leading-5 text-white/50">{{ task.description }}</p>
+        </div>
+      </div>
+      <div class="flex font-inter">
+        <p class="text-sm font-medium leading-6 text-white/[.35]">{{ task.time }}</p>
+      </div>
+    </li>
+  </ul>

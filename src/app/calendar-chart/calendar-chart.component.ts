@@ -6,7 +6,7 @@ import Chart from 'chart.js/auto';
   templateUrl: './calendar-chart.component.html',
   styleUrls: ['./calendar-chart.component.scss']
 })
-export class CalendarChartComponent {
+export class CalendarChartComponent implements OnInit {
   public chart: any;
   public delayed: boolean = true;
 
