@@ -1,0 +1,15 @@
+<div class="relative mx-2">
+    <!-- Colored Square -->
+    <div class="absolute top-0 left-0 w-1/7 h-full bg-[url('assets/icons/calendar.day.bg.svg')] bg-center bg-contain bg-no-repeat">
+        <span></span>
+    </div>
+  
+    <!-- Grid Container - 7 Columns -->
+    <div class="grid grid-cols-7 text-white text-center">
+      <!-- Column 1 - Day -->
+      <div class="p-2 pb-1 z-10 font-black" *ngFor="let day of calendarDays">
+        <p class="uppercase text-2xs">{{day.dayOfWeek}}</p>
+        <p class="text-base">{{day.dayNumber}}</p>
+      </div>
+    </div>
+  </div>

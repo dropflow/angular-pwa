@@ -7,11 +7,15 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { CalendarChartComponent } from './calendar-chart/calendar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
+    CalendarComponent,
+    CalendarChartComponent,
   ],
   imports: [
     BrowserModule,
