@@ -6,11 +6,11 @@ import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TopbarComponent } from './topbar/topbar.component';
-import { CalendarComponent } from './calendar/calendar.component';
-import { CalendarChartComponent } from './calendar-chart/calendar-chart.component';
-import { TasksListComponent } from './tasks-list/tasks-list.component';
-import { PlayerComponent } from './player/player.component';
+import { TopbarComponent } from './components/topbar/topbar.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
+import { CalendarChartComponent } from './components/calendar-chart/calendar-chart.component';
+import { TasksListComponent } from './components/tasks-list/tasks-list.component';
+import { PlayerComponent } from './components/player/player.component';
 
 @NgModule({
   declarations: [
