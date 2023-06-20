@@ -76,7 +76,10 @@ export class CalendarChartComponent implements OnInit {
       },
       options: {
         layout: {
-          padding: 0,
+          padding: {
+            top: 10,
+            bottom: 10,
+          }
         },
         scales: {
           y: {
