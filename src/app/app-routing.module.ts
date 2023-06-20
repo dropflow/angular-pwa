@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+// views
+import { HomeComponent } from './views/home/home.component';
+import { PlayerComponent } from './views/player/player.component';
+
+const routes: Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'player', component: PlayerComponent},
+];
 
 @NgModule({
   imports: [

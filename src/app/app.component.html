@@ -1,4 +1,4 @@
-<div class="container-fluid py-3">
+<!--<div class="container-fluid py-3">
   <div class="flex my-5">
     <div class="flex-1 text-right">
       Status:
@@ -8,16 +8,9 @@
       <span class="bg-red-500 text-white py-1 px-2 rounded-lg" *ngIf="!isOnline">Offline</span>
     </div>
   </div>
-</div>
+</div>-->
 
-<div class="bg-black">
-  <app-topbar></app-topbar>
-  <app-calendar></app-calendar>
-  <app-calendar-chart></app-calendar-chart>
-  <app-tasks-list></app-tasks-list>
-  <app-player></app-player>
-  <!-- Other content of the app component -->
-</div>
+<router-outlet></router-outlet>
 
 <div class="w-full absolute top-0" *ngIf="modalVersion">
   <div class="bg-gray-200 m-2 p-2">

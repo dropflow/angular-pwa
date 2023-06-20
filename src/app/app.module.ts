@@ -10,7 +10,12 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { CalendarChartComponent } from './components/calendar-chart/calendar-chart.component';
 import { TasksListComponent } from './components/tasks-list/tasks-list.component';
-import { PlayerComponent } from './components/player/player.component';
+import { PlayerBarComponent } from './components/player-bar/player-bar.component';
+
+// views
+import { HomeComponent } from './views/home/home.component';
+import { PlayerComponent } from './views/player/player.component';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +24,8 @@ import { PlayerComponent } from './components/player/player.component';
     CalendarComponent,
     CalendarChartComponent,
     TasksListComponent,
+    PlayerBarComponent,
+    HomeComponent,
     PlayerComponent,
   ],
   imports: [

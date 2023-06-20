@@ -1,0 +1,16 @@
+
+<div class="h-screen flex flex-col bg-black">
+    <header class="flex flex-col">
+        <app-topbar></app-topbar>
+        <app-calendar></app-calendar>
+        <app-calendar-chart></app-calendar-chart>
+    </header>
+
+    <div class="flex-1 overflow-auto w-full scrollbar-hide">
+        <app-tasks-list></app-tasks-list>
+    </div>
+
+    <footer class="w-full">
+        <app-player-bar></app-player-bar>
+    </footer>
+</div>
