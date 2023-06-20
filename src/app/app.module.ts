@@ -10,6 +10,7 @@ import { TopbarComponent } from './topbar/topbar.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CalendarChartComponent } from './calendar-chart/calendar-chart.component';
 import { TasksListComponent } from './tasks-list/tasks-list.component';
+import { PlayerComponent } from './player/player.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { TasksListComponent } from './tasks-list/tasks-list.component';
     CalendarComponent,
     CalendarChartComponent,
     TasksListComponent,
+    PlayerComponent,
   ],
   imports: [
     BrowserModule,
